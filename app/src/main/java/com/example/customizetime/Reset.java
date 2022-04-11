@@ -39,7 +39,7 @@ public class Reset extends AppCompatActivity {
                 if (password.equals(repassword)) {
                     Boolean checkpasswordupdate = DB.updatepassword(user, password);
                     if (checkpasswordupdate == true) {
-                        Intent int2 = new Intent(getApplicationContext(), Login.class);
+                        Intent int2 = new Intent(getApplicationContext(), Reset_Name.class);
                         startActivity(int2);
                         Toast.makeText(Reset.this, "Password Updated Sucessfully", Toast.LENGTH_SHORT).show();
                     } else
