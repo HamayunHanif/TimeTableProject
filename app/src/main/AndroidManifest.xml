@@ -10,6 +10,44 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Customizetime">
         <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".splash"
+            android:exported="false"
+            android:label="SplaseScreen"
+            android:theme="@style/Theme.Transparent" />
+        <activity
+            android:name=".Setting"
+            android:exported="false" />
+        <activity
+            android:name=".AddTeacher"
+            android:exported="false" />
+        <activity
+            android:name=".Teacher"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Mondaytime"
+            android:exported="false" />
+        <activity
+            android:name=".weekdays"
+            android:exported="false" />
+        <activity
+            android:name=".Addsection"
+            android:exported="false" />
+        <activity
+            android:name=".Done"
+            android:exported="false" />
+        <activity
+            android:name=".Dashboard"
+            android:exported="false" />
+        <activity
             android:name=".Reset_Name"
             android:exported="false" />
         <activity
@@ -17,12 +55,6 @@
             android:exported="false" />
         <activity
             android:name=".password"
-            android:exported="false" />
-        <activity
-            android:name=".Main_Dashboard"
-            android:exported="false" />
-        <activity
-            android:name=".Dashboard"
             android:exported="false" />
         <activity
             android:name=".Register"

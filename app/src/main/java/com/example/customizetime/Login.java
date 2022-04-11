@@ -48,7 +48,7 @@ public class Login extends AppCompatActivity {
                     Boolean checkuserpass = DB.Checkusernamepassword(user,pass);
                     if (checkuserpass==true){
                         Toast.makeText(Login.this,"Sign in successfull",Toast.LENGTH_SHORT).show();
-                        Intent int2 = new Intent(getApplicationContext(),Main_Dashboard.class);
+                        Intent int2 = new Intent(getApplicationContext(),Dashboard.class);
                         startActivity(int2);
                     }else {
                         Toast.makeText(Login.this,"Invalid Credentials",Toast.LENGTH_SHORT).show();
